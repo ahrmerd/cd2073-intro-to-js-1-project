@@ -109,7 +109,10 @@ document.querySelector('.pay').addEventListener('click', (e) => {
     let amount = document.querySelector('.received').value;
     amount *= 1;
 
+    // totalPaid += amount
+
     // Set cashReturn to return value of pay()
+    // let cashReturn = pay(totalPaid);
     let cashReturn = pay(amount);
 
     let paymentSummary = document.querySelector('.pay-summary');
